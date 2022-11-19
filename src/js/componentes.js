@@ -69,7 +69,8 @@ divTodoList.addEventListener("click", (event) => {
 });
 
 eliminarCompletados.addEventListener("click", (event) => {
-    todoList.elimicarCompletados();
+
+    todoList.eliminarCompletados();
 
     for (let i = divTodoList.children.length - 1; i >= 0; i--) {
 
